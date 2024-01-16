@@ -9,6 +9,8 @@ face of Control-flow Enforcement Technology such as the shadow stack.
 Simply copy [gotgadget.py](gotgadget.py) into your ghidra scripts directory.
 
 ## Usage
+GotGadget should work with the out-of-the-box Python 2 interpreter that Ghidra provides, or with Python 3 and [Ghidrathon](https://github.com/mandiant/Ghidrathon).
+
 ### Via the Scripts Interface
 Ensure analysis has been run on your target binary, then invoke the script via the scripts interface in Ghidra.
 ### Via analyzeHeadless
